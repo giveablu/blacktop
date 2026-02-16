@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://blacktopdiesel1.com/sitemap.xml
+
