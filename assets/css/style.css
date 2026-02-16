@@ -47,6 +47,10 @@ a { color: inherit; text-decoration: none; }
 .breadcrumb { color: #666666; font-size: .94rem; margin-bottom: 14px; }
 .breadcrumb a { color: #333333; }
 .pill { display: inline-block; border: 1px solid #fdb819; border-radius: 999px; padding: 6px 12px; margin: 0 8px 10px 0; color: #333333; background: rgba(253,184,25,.14); }
+.legal-links { padding: 0 0 14px; }
+.legal-links .links { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; font-weight: 600; color: #333333; }
+.legal-links .sep { color: #777777; }
+.legal-links a:hover { color: var(--brand); }
 .footer-space { height: 94px; }
 @media (max-width: 900px) {
   .grid-3 { grid-template-columns: 1fr; }
