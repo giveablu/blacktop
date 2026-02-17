@@ -6,6 +6,7 @@
   --muted: #858584;
   --brand: #fdb819;
   --brand-dark: #333333;
+  --hero-logo-clearance: 340px;
 }
 html, body { margin: 0; padding: 0; font-family: "Poppins", Inter, system-ui, Arial, sans-serif; background: var(--bg); color: var(--text); }
 a { color: inherit; text-decoration: none; }
@@ -15,7 +16,7 @@ a { color: inherit; text-decoration: none; }
 .hero { position: relative; min-height: 100svh; overflow: hidden; }
 .hero-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: background-image 700ms ease; }
 .hero-overlay { position: absolute; inset: 0; background: rgba(3,3,3,.74); }
-.hero-content { position: relative; z-index: 10; min-height: 100svh; display: flex; align-items: center; }
+.hero-content { position: relative; z-index: 10; min-height: 100svh; display: flex; align-items: center; padding-top: var(--hero-logo-clearance); }
 .hero h1 { font-size: clamp(2rem, 5vw, 4rem); margin: 0 0 12px; line-height: 1.08; }
 .hero p { max-width: 760px; color: #ffffff; font-size: clamp(1rem, 2.3vw, 1.2rem); }
 .hero h1 { color: #ffffff; }
@@ -55,5 +56,6 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 900px) {
   .grid-3 { grid-template-columns: 1fr; }
   .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  :root { --hero-logo-clearance: 270px; }
   .site-logo { height: 243px; }
 }
