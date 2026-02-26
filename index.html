@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,6 +14,8 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Blacktop Diesel and Tire" />
   <meta name="twitter:description" content="Mobile diesel mechanic and tire service across Jacksonville and surrounding areas." />
+  <meta name="twitter:image" content="https://blacktopdiesel1.com/assets/img/hero-main.jpg" />
+  <meta name="twitter:url" content="https://blacktopdiesel1.com/" />
   <link rel="canonical" href="https://blacktopdiesel1.com/" />
   <link rel="icon" type="image/png" href="/favicon-light.png" media="(prefers-color-scheme: light)" />
   <link rel="icon" type="image/png" href="/favicon-dark.png" media="(prefers-color-scheme: dark)" />
@@ -23,6 +25,7 @@
   <header class="site-header">
     <div class="container">
       <img src="/assets/img/logo.png" alt="Blacktop Diesel and Tire logo" class="site-logo" />
+      <button type="button" class="lang-toggle" data-lang-toggle aria-label="Switch language">ES</button>
     </div>
   </header>
 
@@ -31,28 +34,28 @@
     <div class="hero-overlay"></div>
     <div class="hero-content container">
       <div>
-        <p>Jacksonville & Northeast Florida</p>
-        <h1>Mobile Diesel Mechanic and Tire Service — We Come to You.</h1>
-        <p>Blacktop Diesel and Tire handles on-site diagnostics, roadside diesel repair, and mobile tire service for work trucks, fleets, and owner-operators.</p>
+        <p data-i18n="hero-region">Jacksonville &amp; Northeast Florida</p>
+        <h1 data-i18n="hero-headline">Mobile Diesel Mechanic and Tire Service -- We Come to You.</h1>
+        <p data-i18n="hero-subhead">Blacktop Diesel and Tire handles on-site diagnostics, roadside diesel repair, and mobile tire service for work trucks, fleets, and owner-operators.</p>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <h2>Services</h2>
+      <h2 data-i18n="services-heading">Services</h2>
       <div class="grid grid-3">
         <article class="card">
-          <h3>Roadside Diesel Repair</h3>
-          <p>No-start, breakdown, and emergency repair support to get your truck moving safely.</p>
+          <h3 data-i18n="service1-title">Roadside Diesel Repair</h3>
+          <p data-i18n="service1-body">No-start, breakdown, and emergency repair support to get your truck moving safely.</p>
         </article>
         <article class="card">
-          <h3>Mobile Diesel Diagnostics</h3>
-          <p>On-site fault code scans and troubleshooting for engine, fuel, and electrical issues.</p>
+          <h3 data-i18n="service2-title">Mobile Diesel Diagnostics</h3>
+          <p data-i18n="service2-body">On-site fault code scans and troubleshooting for engine, fuel, and electrical issues.</p>
         </article>
         <article class="card">
-          <h3>Mobile Tire Service</h3>
-          <p>On-location tire changes, replacements, and support for commercial diesel vehicles.</p>
+          <h3 data-i18n="service3-title">Mobile Tire Service</h3>
+          <p data-i18n="service3-body">On-location tire changes, replacements, and support for commercial diesel vehicles.</p>
         </article>
       </div>
     </div>
@@ -60,8 +63,20 @@
 
   <section class="section">
     <div class="container">
-      <h2>Service Areas</h2>
-      <p class="lead">Select your city for dedicated local service info.</p>
+      <h2>Service Pages</h2>
+      <div class="grid grid-4">
+        <a class="area-link" href="/diesel-mechanic-near-me/">Diesel Mechanic Near Me</a>
+        <a class="area-link" href="/mobile-diesel-mechanic/">Mobile Diesel Mechanic</a>
+        <a class="area-link" href="/emergency-mechanic/">Emergency Diesel Mechanic</a>
+        <a class="area-link" href="/tire-replacement-for-trucks/">Tire Replacement for Trucks</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 data-i18n="areas-heading">Service Areas</h2>
+      <p class="lead" data-i18n="areas-lead">Select your city for dedicated local service info.</p>
       <div class="grid grid-4">
         <a class="area-link" href="/service-areas/jacksonville-fl/">Jacksonville</a>
         <a class="area-link" href="/service-areas/orange-park-fl/">Orange Park</a>
@@ -82,7 +97,7 @@
 
   <section class="section">
     <div class="container">
-      <h2>Field Work Gallery</h2>
+      <h2 data-i18n="gallery-heading">Field Work Gallery</h2>
       <div class="grid grid-4">
         <button type="button" class="gallery-btn" data-gallery-img="/assets/img/gallery-1.jpg"><img src="/assets/img/gallery-1.jpg" alt="Diesel service work example 1" /></button>
         <button type="button" class="gallery-btn" data-gallery-img="/assets/img/gallery-2.jpg"><img src="/assets/img/gallery-2.jpg" alt="Diesel service work example 2" /></button>
@@ -97,25 +112,25 @@
   </section>
 
   <div class="lightbox" data-lightbox>
-    <button class="close" type="button" data-lightbox-close>Close</button>
+    <button class="close" type="button" data-lightbox-close data-i18n="lightbox-close">Close</button>
     <img src="" alt="Service gallery preview" data-lightbox-img />
   </div>
 
   <div class="cta-bar">
     <div class="cta-wrap">
       <div class="cta-grid">
-        <a class="btn btn-call" href="tel:+19043853283">Call</a>
-        <a class="btn btn-text" href="sms:+19043853283">Text</a>
+        <a class="btn btn-call" href="tel:+19047062121" data-i18n="cta-call">Call</a>
+        <a class="btn btn-text" href="sms:+19047062121" data-i18n="cta-text">Text</a>
       </div>
     </div>
   </div>
   <div class="legal-links">
     <div class="container links">
-      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/privacy-policy/" data-i18n="legal-privacy">Privacy Policy</a>
       <span class="sep">|</span>
-      <a href="/terms-and-conditions/">Terms &amp; Conditions</a>
+      <a href="/terms-and-conditions/" data-i18n="legal-terms">Terms &amp; Conditions</a>
       <span class="sep">|</span>
-      <a href="/about-us/">About Us</a>
+      <a href="/about-us/" data-i18n="legal-about">About Us</a>
     </div>
   </div>
   <div class="footer-space"></div>
@@ -125,7 +140,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Blacktop Diesel and Tire",
-    "telephone": "+19043853283",
+    "telephone": "+19047062121",
     "serviceType": ["Mobile Diesel Mechanic", "Roadside Diesel Repair", "Mobile Tire Service"],
     "areaServed": ["Jacksonville", "Orange Park", "Fernandina Beach", "Flagler Beach", "St. Augustine", "Nocatee", "Ponte Vedra", "Ponte Vedra Beach", "Atlantic Beach", "Neptune Beach", "Fleming Island", "Yulee", "St. Johns"]
   }
@@ -133,5 +148,6 @@
   <script src="/assets/js/site.js"></script>
 </body>
 </html>
+
 
 
