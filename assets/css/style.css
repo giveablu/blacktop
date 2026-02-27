@@ -58,7 +58,7 @@ a { color: inherit; text-decoration: none; }
 .built-by { padding: 28px 0 10px; text-align: center; }
 .built-by .built-inner { display: inline-flex; align-items: center; gap: 10px; }
 .built-by .built-label { font-weight: 600; color: #333333; }
-.built-by .built-logo { height: 48px; width: auto; display: inline-block; }
+.built-by .built-logo { height: 40px; width: auto; display: inline-block; }
 @media (max-width: 900px) {
   .grid-3 { grid-template-columns: 1fr; }
   .grid-4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
